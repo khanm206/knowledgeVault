@@ -206,3 +206,25 @@ main{
     font-size: 16px;
     font-weight: 500;
 }
+
+#thinkMore{
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    padding: 40px 80px;
+}
+#thinkMore>button{
+    margin: auto;
+}
+
+#thinkMore>h1{
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#thinkMoreText{
+    width: 50%;
+    margin: auto;
+}
