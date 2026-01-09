@@ -1,11 +1,13 @@
 *{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  margin: 0;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 a{
@@ -37,4 +39,75 @@ li{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn2{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border:1px solid white;
+    border-radius: 4px;
+    padding: 16px 12px;
+    font-style: Semi Bold;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#banner{
+    background: url(assets/hero-bg.png);
+    padding: 100px 0;
+}
+
+#earlyAccess{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+#earlyAccess>img{
+    height: 20px;
+}
+
+#earlyAccess>h4{
+    margin: 0;
+    color: rgba(70, 145, 101, 1);
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#banner>h1{
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#banner>p{
+    color: white;
+    font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+#bannerBtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
