@@ -118,7 +118,7 @@ main{
 
 #notes{
     text-align: center;
-    background-color: #6273820d;
+    background-color: #6273820a;
     margin: 0 -100px;
     padding: 50px 100px 0;
 }
@@ -146,7 +146,7 @@ main{
 .noteBox{
     background-color: white;
     padding: 24px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     
 }
 
@@ -167,8 +167,42 @@ main{
 .noteBox>p{
     padding: 0 10px;
     margin: auto;
+}
+
+.secondaryLine{
     color: rgba(98, 115, 130, 1);
     font-style: Regular;
     font-size: 16px;
     font-weight: 400;
+}
+
+#brain{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+#brainContent>h4{
+    color: rgba(70, 145, 101, 1);
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#brainContent>h1{
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.checkList{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
 }
