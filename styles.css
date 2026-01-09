@@ -228,3 +228,42 @@ main{
     width: 50%;
     margin: auto;
 }
+
+footer{
+    margin-top: 100px;
+    padding: 100px 100px 0;
+    background-color: rgba(0, 25, 49, 1);
+}
+
+#firstFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstFooter>img{
+    width: 100px;
+    height: 45px;
+    margin-bottom: 60px;
+}
+
+footer h3{
+    color: white;
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#socialLinks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+hr{
+    color: #E5E7EB;
+}
+
+#copyRight{
+    text-align: center;
+    padding: 20px 0;
+}
